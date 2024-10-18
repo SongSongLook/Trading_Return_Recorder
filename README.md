@@ -1,5 +1,3 @@
-# Equity_Return_Curve_Calculator
-
 # Trading Return Recorder
 
 A graphical application to record and analyze your trading returns. The application supports two modes of calculating returns, provides multi-language support (English and Chinese), theme switching between light and dark modes, and features data persistence and a one-click history clearing function.
@@ -18,7 +16,6 @@ A graphical application to record and analyze your trading returns. The applicat
 - [Data Persistence](#data-persistence)
 - [Clearing History](#clearing-history)
 - [Dependencies](#dependencies)
-- [Notes](#notes)
 - [License](#license)
 
 ---
@@ -199,26 +196,6 @@ To clear all trading data and reset the application:
 - **Matplotlib**
 
 Ensure all dependencies are installed to prevent any runtime errors.
-
----
-
-## Notes
-
-- **Input Validation**:
-  - Always enter valid numerical values in the input fields.
-  - The application will prompt you if the input is invalid.
-
-- **Language and Theme Switching**:
-  - You can switch languages and themes at any time via the **"Settings"** menu.
-  - The interface updates immediately to reflect the changes.
-
-- **Data Files**:
-  - The data files (`standard_data.json` and `risk_data.json`) are stored in the same directory as the application.
-  - Ensure you have write permissions to this directory.
-
-- **Multiple Users or Accounts**:
-  - Currently, the application does not support multiple users or accounts.
-  - All data is stored globally for the application.
 
 ---
 
